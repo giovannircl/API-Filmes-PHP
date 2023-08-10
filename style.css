@@ -1,0 +1,151 @@
+* {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F7F3E3;
+}
+
+.read {
+    background-color: #F7F3E3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #6F1A07;
+    overflow: hidden; /* Para esconder a barra de rolagem da própria div */
+}
+
+.update {
+    background-color: #F7F3E3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #6F1A07;
+}
+
+.container {
+    text-align: center;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #6F1A07;
+    color: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: #6F1A07;
+    border-color: #f8f9fa;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #a16458; 
+    border-color: #6F1A07;
+}
+
+h1 {
+    text-align: center;
+    color: #6F1A07;
+    font-family: monospace;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 2%;
+}
+
+th, td {
+    text-align: left;
+    color: #6F1A07;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.tabela {
+    width: 90%; 
+    margin: 0 auto;
+}
+
+.tab{
+    border: 8px dashed #A8763E;
+}
+
+.tab thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    flex: 1;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+    max-height: calc(100vh - 150px); /* Ajuste conforme necessário */
+    overflow-y: auto;
+}
+
+.cabecalho-tabela th {
+    background-color: #6F1A07; 
+    color: #fff; 
+    text-align: left;
+}
+
+a {
+    color: #6F1A07;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+a:hover {
+    color: #F7F3E3; 
+    background-color: #6F1A07;
+}
+
+.form-check .form-check-input:checked {
+    background-color: #6F1A07;
+    border-color: #F7F3E3
+}
+
+.form-control {
+    border: 2px solid #f2ecd0;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.update {
+    background-color: white; 
+    border-radius: 5px; 
+    margin-bottom: 2%; 
+}
+
+.titulo-edicao {
+    background-color: #f2ecd0;
+    padding: 1%;
+    border-bottom: 5px dashed #A8763E;
+}
+
+.form-control:focus {
+    border-color: #A8763E;
+    box-shadow: 0 0 0 0.25rem rgba(210, 212, 200, 0.25);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-weight: 700;
+}
