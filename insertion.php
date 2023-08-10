@@ -15,7 +15,7 @@ $client = new \GuzzleHttp\Client();
 
 $response = $client->request('GET', 'https://api.themoviedb.org/3/discover/movie?include_adult=true', [
     'headers' => [
-        'Authorization' => 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMzM4M2Q5OGM5NTFmNGQ1YTJlNzE0NjlhZDQ2MmY0MCIsInN1YiI6IjY0OGRjNGQwMjYzNDYyMDBhZTFiOWQzMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.7DcRzpC6uvB4EV86UE7PtZNSR1bzBVOVWxkvJS3RHjE',
+        'Authorization' => 'Bearer', // aqui é o local de colocar o token para consumir a API TMDB
         'accept' => 'application/json',
     ],
 ]);
